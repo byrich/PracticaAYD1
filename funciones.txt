@@ -15,6 +15,10 @@ public int div(int a, int b){
 	return a / b;
 }
 
+
 public int raiz(int a, int b){
 	return Math.sqrt(a,b);
+
+public int potencia(int a, int b){
+	return a ^ b;
 }

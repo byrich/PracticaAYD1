@@ -4,3 +4,12 @@ public int factorial(int n){
 	else 
 		return n*factorial(n-1);
 }
+
+public int factorialIterativo(int n){
+	int i;
+	int resultado=1;
+	for(i=1;i<=n;i++){
+		resultado = resultado * n;
+	}
+	return resultado;
+}
